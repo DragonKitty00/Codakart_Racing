@@ -33,12 +33,39 @@ public class Camera_Follow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        cameraCalc = FindObjectOfType<CameraCalculations>();
+        Vector3 angles = transform.eulerAngles;
+        x = angles.x;
+        y = angles.y;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        distanceOffset = cameraCalc.CalculateOffset(target, playerLayerNumber, maxDistance, distanceOffset);
+    }
+
+    void LateUpdate()
+    {
+        x += Input.GetAxis("Mouse X") * cameraSpeed.x;
+        y -= Input.GetAxis("Mouse Y") * cameraSpeed.y;
+
+        y = cameraCalc.ClampAngle(y, cameraYLimits.x, cameraYLimits.y);
+
+        yOffset = cameraCalc.FindOffsetY(minHeight);
+        newPos = cameraCalc.FindPosition(minHeight);
+
+        if (resetCamera == true)
+        {
+            x = target.transform.eulerAngles.y;
+            y = 0;
+
+            rotation = Quaternion.Euler(y, x, 0.0f);
+        }
+        else
+        {
+                
+        }
     }
 }
