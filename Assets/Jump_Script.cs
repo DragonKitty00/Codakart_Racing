@@ -33,7 +33,7 @@ public class Jump_Script : MonoBehaviour
         {
             //add a force to the kart that ignors mass  
             rigidBody.AddForce(jumpValue * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
         }
+        isGrounded = false;
     }
 }

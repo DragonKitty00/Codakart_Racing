@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5756108211288759438}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lamp Post
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 699180626191221504}
   - component: {fileID: 3498581198187548449}
   - component: {fileID: 2961528715986210317}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lightbulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 7203802902623536800}
   - component: {fileID: 7203802902623536803}
   - component: {fileID: 7203802902623536802}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light_Pole2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 7203802904411098967}
   - component: {fileID: 7203802904411098966}
   - component: {fileID: 7203802904411098969}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light_Pole1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 3699484542513235482}
   - component: {fileID: 1867358496706503455}
   - component: {fileID: 3643062500761304663}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light_Cube1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 3245501477258674066}
   - component: {fileID: 4189721458497877054}
   - component: {fileID: 1611776390437236192}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light_Pole3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
