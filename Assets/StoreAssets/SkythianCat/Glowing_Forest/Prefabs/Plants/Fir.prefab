@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33000013629962810}
   - component: {fileID: 23000011310366672}
   - component: {fileID: 136000011571503686}
+  - component: {fileID: 7893805195720912820}
   m_Layer: 0
   m_Name: Fir
   m_TagString: Untagged
@@ -94,3 +95,17 @@ CapsuleCollider:
   m_Height: 8.04
   m_Direction: 1
   m_Center: {x: -8.076666e-15, y: 2.51, z: -0.00000011920929}
+--- !u!64 &7893805195720912820
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010042709864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 431d920f0b6f5e34f80cdc143fba0734, type: 3}
